@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 #名称
 s.name             = 'LearnPods'
 #版本号
-s.version          = '0.1.1'
+s.version          = '1.0.0'
 #简介
 s.summary          = '这个是我的私有库项目Demo.'
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ s.source           = { :git => 'https://github.com/yu0winter/LearnPods.git', :ta
 s.ios.deployment_target = '7.0'
 #代码源文件地址，**/*表示Classes目录及其子目录下所有文件，如果有多个目录下则
 #用逗号分开，如果需要在项目中分组显示，这里也要做相应的设置
-s.source_files = "LearnPods/Classes/**/*"
+s.source_files = "LearnPods/LearnPods/Classes/*"
 #资源文件地址
 # s.resource_bundles = {
 #   'LearnPods' => ['LearnPods/Assets/*.png']
