@@ -10,6 +10,9 @@
 		B98216CD206225400035D2DA /* LearnPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98216C3206225400035D2DA /* LearnPods.framework */; };
 		B98216D2206225400035D2DA /* LearnPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B98216D1206225400035D2DA /* LearnPodsTests.m */; };
 		B98216D4206225400035D2DA /* LearnPods.h in Headers */ = {isa = PBXBuildFile; fileRef = B98216C6206225400035D2DA /* LearnPods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98216DE20622B4B0035D2DA /* LearnPods.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B98216DD20622B4B0035D2DA /* LearnPods.podspec */; };
+		B98216E220622BCD0035D2DA /* YuObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B98216E020622BCD0035D2DA /* YuObject.h */; };
+		B98216E320622BCD0035D2DA /* YuObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B98216E120622BCD0035D2DA /* YuObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		B98216CC206225400035D2DA /* LearnPodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnPodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98216D1206225400035D2DA /* LearnPodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnPodsTests.m; sourceTree = "<group>"; };
 		B98216D3206225400035D2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B98216DD20622B4B0035D2DA /* LearnPods.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LearnPods.podspec; path = ../../LearnPods.podspec; sourceTree = "<group>"; };
+		B98216E020622BCD0035D2DA /* YuObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuObject.h; sourceTree = "<group>"; };
+		B98216E120622BCD0035D2DA /* YuObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,8 @@
 		B98216C5206225400035D2DA /* LearnPods */ = {
 			isa = PBXGroup;
 			children = (
+				B98216DF20622B9B0035D2DA /* Classes */,
+				B98216DD20622B4B0035D2DA /* LearnPods.podspec */,
 				B98216C6206225400035D2DA /* LearnPods.h */,
 				B98216C7206225400035D2DA /* Info.plist */,
 			);
@@ -86,6 +94,15 @@
 			path = LearnPodsTests;
 			sourceTree = "<group>";
 		};
+		B98216DF20622B9B0035D2DA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B98216E020622BCD0035D2DA /* YuObject.h */,
+				B98216E120622BCD0035D2DA /* YuObject.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +111,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B98216D4206225400035D2DA /* LearnPods.h in Headers */,
+				B98216E220622BCD0035D2DA /* YuObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98216DE20622B4B0035D2DA /* LearnPods.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98216E320622BCD0035D2DA /* YuObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
